@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三列布局2</title>
+	<style type="text/css">
+	body{margin: 0;padding: 0}
+	.left{width: 200px;height: 500px;background-color: #ccc;position: absolute;left: 0;top: 0}
+	.middle{height: 500px;background-color: #999;margin: 0 300px 0 200px}
+	.right{width: 300px;height: 500px;background-color: #ddd;position: absolute;right: 0;top: 0}
+	</style>
+</head>
+<body>
+
+	<div class="left">200px</div>
+	<div class="middle">
+	div定义宽度，文字会自动换行。如果是数字或者是英文字母的话一般不会自动换行。用word-wrap:break-word;实现强制断行。或者用overflow:hidden 把超出边界的字符隐藏
+	换行的操作元素是一个单词，在这种情况下：
+	222222222222222222222222222222222222222222222222222222222222222222222222222222222222222，
+	这种开头便是一个长长的单词，所以不会换行
+	如果是英文就会一直撑下去，设什么置都不行，除非写溢出，但还是一行，中文的话会自动换行。	
+	</div>
+	<div class="right">300px</div>
+
+	
+</body>
+</html>

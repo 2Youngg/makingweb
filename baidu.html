@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>baidu</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#header{
+			background-color: grey;
+
+		}
+		#header .contWidth{
+			position: relative;
+			height: 105px;
+			width: 100%;
+			z-index: 100;
+
+		}
+		#left: {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#right: {
+			position: absolute;
+			top: 0;
+			right: 0;
+
+		}
+		.contWidth ul li{
+			display: inline;
+		}
+		#wenben{
+			margin: 0 auto;
+		}
+		#content{
+			width: 1000px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div class="contWidth">
+			<ul id="left">
+				<li>上海</li>
+				<li>31℃</li>
+				<li>29</li>
+				<li>宝箱</li>
+				<li>换肤</li>				
+				<li>消息</li>
+				<li>显示频道</li>
+			</ul>
+			<ul id="right">
+				<li>糯米</li>
+				<li>新闻</li>
+				<li>hao123</li>
+				<li>地图</li>
+				<li>视频</li>				
+				<li>贴吧</li>
+				<li>zhengyangtu</li>			
+				<li>设置</li>
+				<li>更多产品</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="content">
+		<img src="logo_white.png" alt="logo">
+		<div id="wenben">
+			<input type="text" name="baidu">
+			<input type="submit" value="百度一下" >
+		</div>
+	</div>
+</body>
+</html>
